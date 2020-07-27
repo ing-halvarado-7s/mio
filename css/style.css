@@ -1,0 +1,49 @@
+/* Estilo personal de la página BBC  */
+
+/* Gradiente gris del menú superior */
+.bg-custom-2 {
+    background-image: linear-gradient(to right, #f2f2f2 0%, #bfbfbf 100%);
+}
+
+/* Letra verde del menú superior */
+.letra-verde{
+    color: #9Ab236 !important;
+}
+
+/* Configuración para header fijo, internamente contiene menús superior e inferior */
+.fijo1{
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+}
+
+/* Configuración para menú fijo inferior */
+footer{
+    background-color: #595959;
+}
+
+/* Cambiar el color del icono de usuario */
+
+.icon-user{
+    color: #595959 !important;
+}
+
+
+/* Configuración del texto que acompaña al icono user del menu superior */
+.font-bbc{
+    color: #595959 !important;
+    font-size: 1.5em;
+}
+
+.font-user{
+    color: #9Ab236 !important;
+    font-size: 1.5em;
+}
+
+/* Igualar tamaño de las imágenes del carrusel */
+.carousel-inner > .carousel-item > img {
+    object-fit: scale-down;
+    height: 85vh;
+    width: 100%;
+  }
+
